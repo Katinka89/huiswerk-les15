@@ -1,0 +1,178 @@
+/* Header body en footer */
+
+header{
+    background-color: #F0A3C5;
+    width: 100%;
+    height: 200px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 15px;
+    background-image: url(Afbeeldingen/bloemen.jpg);
+    background-repeat: repeat-x;
+    background-position: 20px;
+}
+ul a{
+    color: white;
+    text-decoration: none;
+    font-family: fantasy;
+    font-size: x-large;
+}
+li{
+    display: inline-block;
+    background-color: #F073AA;
+    height: 25px;
+    width: 100px;
+    text-align: center;
+    padding: 12px;
+    margin-top: 145px;
+    margin-right: 10px;
+    border-color: #F1D6E2;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 15px;
+}
+li:hover{
+    background-color: #F1D6E2;
+}
+
+body{
+    background-color: #F1D6E2;
+    display: flex;
+    flex-direction: column;
+}
+
+#div{
+    color: black;
+    font-family: fantasy;
+    font-size: large;
+    background-color: #F0A3C5;
+    width: 1000px;
+    height: 1000px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    padding: 10px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 15px;
+}
+
+#footer{
+    margin-top: auto;
+    width: 100%;
+    height: 150px;
+    background-color: #F0A3C5;
+    padding: 5px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 15px;
+}
+#copyright{
+    width: 1000px;
+    height:30px;
+    background-color: #F1D6E2;
+    font-family: fantasy;
+    font-size: large;
+    margin-top: 55px;
+    padding: 5px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    border-style: solid;
+    border-color: white;
+    border-radius: 15px;
+}
+
+/* index */
+h1{
+    text-align: center;
+    padding: 5px;
+}
+
+#persoonlijk{
+    width: 900px;
+    height: 800px;
+    background-color: #F1D6E2;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-style: solid;
+    border-color: white;
+    border-radius: 15px;
+}
+
+/* mijncv */
+h2{
+    margin-left: 155px;
+    padding-top: 10px;
+}
+
+#opleidingen{
+    width: 800px;
+    height: 300px;
+    background-color: #F1D6E2;
+    margin-top: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-color: white;
+    border-radius: 15px;
+}
+#werkervaring{
+    width: 800px;
+    height: 300px;
+    background-color: #F1D6E2;
+    margin-top: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-color: white;
+    border-radius: 15px;
+}
+table{
+    margin-left: 155px;
+}
+td{
+    width: 160px;
+    height: 40px;
+}
+
+/* contact */
+#contact{
+    margin-left: 100px;
+}
+#contactformulier{
+    font-family: fantasy;
+    color: black;
+    width: 800px;
+    height: 600px;
+    background-color: #F1D6E2;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-color: white;
+    border-radius: 15px;
+}
+input[type="text"], input[type="tel"], input[type="email"], textarea, select, button{
+    display: block;
+    margin: 15px 0px;
+    width: 600px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+textarea{
+    height: 200px;
+}
+button:hover{
+    background-color: #F0A3C5;
+}
+button:active{
+    background-color: #F073AA;
+    color: white;
+    box-shadow: inset 3px 3px 3px white;
+}
